@@ -14,7 +14,12 @@ Performs extensive data preprocessing, including stop word removal, lemmatizatio
 To run the Marvel Wikipedia Search Engine locally on your machine, follow these steps:
 1. Download [dataset](https://bitbucket.org/dalvimangesh000/ir-project/src/%27main%27/) **or** scrap data using Web_scrapping.ipynb
 2. Ensure that you have Elasticsearch 7.x installed and running on your system. You can download Elasticsearch from the official website (https://www.elastic.co/downloads/elasticsearch) and follow the installation instructions.
-3. Running the Flask Web App
+3. For preprocessing data and creating index
+
+        python final.py 
+      
+5. Running the Flask Web App
    
         python main.py
-4. Once the server is running, open your web browser and navigate to http://localhost:5000 to access the Marvel Wikipedia Search Engine. You can enter your search queries and explore the prioritized search results.
+   
+6. Once the server is running, open your web browser and navigate to http://localhost:5000 to access the Marvel Wikipedia Search Engine. You can enter your search queries and explore the prioritized search results.
